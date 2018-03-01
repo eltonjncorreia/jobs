@@ -1,6 +1,6 @@
 # Consumindo API e salvando em modelo
 
-[![Code Health](https://landscape.io/github/eltonjncorreia/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/eltonjncorreia/eventex/master)
+[![Code Health](https://landscape.io/github/eltonjncorreia/jobs/master/landscape.svg?style=flat)](https://landscape.io/github/eltonjncorreia/jobs/master)
 
 ## Como Usar?
 
