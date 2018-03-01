@@ -16,7 +16,8 @@ def home(request):
 
 
 def buscar_parlamentares():
-    response = requests.get('http://legis.senado.gov.br/dadosabertos/senador/lista/atual.json')
+    headers = {'content-type': 'application/json'}
+    response = requests.get('http://legis.senado.gov.br/dadosabertos/senador/lista/atual.json', headers=headers)
     content = json.loads(response.content)
     parlamentares = content['ListaParlamentarEmExercicio'].get('Parlamentares').get('Parlamentar')
     return parlamentares
