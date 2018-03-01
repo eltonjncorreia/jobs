@@ -1,7 +1,13 @@
+ProvaEllo.pdf
+Untitled.ipynb
 # Byte-compiled / optimized / DLL files
+1a_questao.html
+.idea
+db.sqlite3
 __pycache__/
 *.py[cod]
 *$py.class
+.ipynb_checkpoints
 
 # C extensions
 *.so
