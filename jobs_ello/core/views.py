@@ -55,4 +55,3 @@ def salvar_dados():
     Suplente.objects.bulk_create(lista_suplente)
     Exercicio.objects.bulk_create(lista_exercicios)
 
-
