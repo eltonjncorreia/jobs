@@ -1,5 +1,7 @@
 # Consumindo API e salvando em modelo
 
+Este projeto consome os dados de uma API e salva esses dados em uma aplicação Django
+
 [![Code Health](https://landscape.io/github/eltonjncorreia/jobs/master/landscape.svg?style=flat)](https://landscape.io/github/eltonjncorreia/jobs/master)
 
 ## Como Usar?
@@ -9,7 +11,8 @@
 3.  Ative o virtualenv
 4.  Instale as dependências.
 5.  Configure a instância com o .env
-6.  Execute o projeto.
+6.  Rode os testes
+7.  Execute o projeto.
 
 
 ``` console
@@ -19,6 +22,7 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 cp contrib/env-sample .env
+python manage.py test
 python manage.py runserver
 
 ```
