@@ -2,6 +2,7 @@
 
 Este projeto consome os dados de uma API e salva esses dados em uma aplicação Django
 
+[![Build Status](https://travis-ci.org/eltonjncorreia/jobs.svg?branch=master)](https://travis-ci.org/eltonjncorreia/jobs)
 [![Code Health](https://landscape.io/github/eltonjncorreia/jobs/master/landscape.svg?style=flat)](https://landscape.io/github/eltonjncorreia/jobs/master)
 
 ## Como Usar?
